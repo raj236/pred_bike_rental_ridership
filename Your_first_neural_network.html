@@ -16322,7 +16322,7 @@ height=272
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="OPTIONAL:-Thinking-about-your-results(this-question-will-not-be-evaluated-in-the-rubric).">OPTIONAL: Thinking about your results(this question will not be evaluated in the rubric).<a class="anchor-link" href="#OPTIONAL:-Thinking-about-your-results(this-question-will-not-be-evaluated-in-the-rubric).">&#182;</a></h2><p>Answer these questions about your results. How well does the model predict the data? Where does it fail? Why does it fail where it does?</p>
-<h4 id="Your-answer-below">Your answer below<a class="anchor-link" href="#Your-answer-below">&#182;</a></h4><p>It gave a mean error of 0.308 on a standard test data. I checked the change in weights of the neural network layers they do not change after few hundred iterations. This seems to be the case of vanishing gradient descent because of the usage of  sigmoid function.</p>
+<h4 id="Your-answer-below">Your answer below<a class="anchor-link" href="#Your-answer-below">&#182;</a></h4><p>It gave a mean error of 0.156 on a standard test data. It seems to have fit the data well enough but for more accuracy I think it will be hard to achieve with this model. I checked the change in weights of the neural network layers they do not change after few hundred iterations. This seems to be the case of vanishing gradient descent because of the usage of sigmoid function, may be using a different activation function will help</p>
 
 </div>
 </div>
